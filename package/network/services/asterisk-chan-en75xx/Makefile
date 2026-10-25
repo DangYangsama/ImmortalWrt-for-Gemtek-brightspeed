@@ -9,7 +9,10 @@ PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/Sirherobrine23/airoha_voip.git
 PKG_SOURCE_DATE:=2026-09-24
 PKG_SOURCE_VERSION:=4222576d980856f3c9ffc323d2fd78a28f94f085
-PKG_MIRROR_HASH:=00831f3a3261ba5c997188472d357d7d506f7e2689b573ac771159253c5cdb81
+# The git-archive tarball hash depends on the zstd version used to repack it,
+# so it is not reproducible across build hosts. The source is still pinned by
+# PKG_SOURCE_VERSION.
+PKG_MIRROR_HASH:=skip
 
 PKG_LICENSE:=GPL-2.0-only
 PKG_BUILD_DEPENDS:=asterisk

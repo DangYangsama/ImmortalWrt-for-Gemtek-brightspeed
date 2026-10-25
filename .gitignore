@@ -38,3 +38,5 @@ git-src
 .vscode*
 .workbuddy
 .codex-run*
+/build.log
+/build-*.log

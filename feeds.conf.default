@@ -14,3 +14,4 @@ src-git easytier https://github.com/EasyTier/luci-app-easytier.git;main
 src-git openwrt_bandix https://github.com/timsaya/openwrt-bandix.git;main
 src-git luci_app_bandix https://github.com/timsaya/luci-app-bandix.git;main
 src-git helloworld https://github.com/fw876/helloworld.git;dev
+src-git passwall2 https://github.com/Openwrt-Passwall/openwrt-passwall2.git;main
